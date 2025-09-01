@@ -1,0 +1,1 @@
+# nuxt4-vite-rolldown-json-issue
