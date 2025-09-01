@@ -115,3 +115,9 @@ expected value at line 1 column 1
 
 error: script "build" exited with code 1
 ```
+
+## The fix
+
+Adding this to overrides: "@intlify/unplugin-vue-i18n": "11.0.0-beta.4" fix the issue.
+The solution is mentioned here https://github.com/nuxt-modules/i18n/issues/3659 and
+here https://github.com/rolldown/rolldown/issues/5983 
